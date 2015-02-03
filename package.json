@@ -1,17 +1,18 @@
 {
-    "name": "blog-api",
-    "version": "1.0.0",
-    "description": "A simple blog API for ajax consumption",
-    "main": "src/index.js",
-    "scripts": {
-        "start": "node src/index.js"
-    },
-    "author": "Adam K Dean <adamkdean@googlemail.com> (http://www.adamkdean.co.uk/)",
-    "license": "MIT",
-    "dependencies": {
-        "restify": "^2.8.5"
-    },
-    "engines": {
-        "node": "0.10.x"
-    }
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "A simple blog API for ajax consumption",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Adam K Dean <adamkdean@googlemail.com> (http://www.adamkdean.co.uk/)",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.1.0",
+    "restify": "^2.8.5"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
 }
