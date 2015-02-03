@@ -3,12 +3,15 @@
         "title": "Hello World",
         "author": "Adam K Dean",
         "posted": "03/02/2015 20:02",
-        "content": "This is some example content.\n\nExample sentence 2\n\nDone\n"
+        "content": "The idea here is that you'll put the newest blog post at the top.\n\n
+                    Hopefully that won't be a problem. Sure you have to write your blog posts
+                    in JSON but surely that's a positive, not a negative... we shall see.\n\n
+                    More functionality could be added but this is, of course, a simple app.\n"
     },
     "example_post": {
         "title": "Example Post",
         "author": "Adam K Dean",
-        "posted": "03/02/2015 20:04",
+        "posted": "03/02/2015 19:00",
         "content": "This is some more example content.\n\nExample sentence 2\n\nDone\n"
     }
 }
