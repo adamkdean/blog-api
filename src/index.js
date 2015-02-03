@@ -1,6 +1,7 @@
 var _ = require('lodash'),
     restify = require('restify'),
-    posts = require('./posts');
+    posts = require('./posts'),
+    port = process.env.PORT || 8000;
 
 var server = restify.createServer({
     name: 'blog-api',
@@ -22,7 +23,8 @@ server.get('/posts', function (req, res, next) {
 });
 
 server.get('/posts/:slug', function(req, res, next) {
-    if (req.params.slug && _.contains(posts, req.params.slug)) {
+    console.log(req.params.slug);
+    if (req.params.slug && _.contains(Object.keys(posts), req.params.slug)) {
         res.send(posts[req.params.slug]);
     } else {
         res.send({
@@ -32,6 +34,6 @@ server.get('/posts/:slug', function(req, res, next) {
     }
 });
 
-server.listen(process.env.PORT, function () {
-    console.log('%s listening at %s', server.name, server.url);
+server.listen(port, function () {
+    console.log('%s listening on port %s', server.name, port);
 });
