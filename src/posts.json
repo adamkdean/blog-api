@@ -3,10 +3,7 @@
         "title": "Hello World",
         "author": "Adam K Dean",
         "posted": "03/02/2015 20:02",
-        "content": "The idea here is that you'll put the newest blog post at the top.\n\n
-                    Hopefully that won't be a problem. Sure you have to write your blog posts
-                    in JSON but surely that's a positive, not a negative... we shall see.\n\n
-                    More functionality could be added but this is, of course, a simple app.\n"
+        "content": "The idea here is that you'll put the newest blog post at the top.\n\nHopefully that won't be a problem. Sure you have to write your blog posts in JSON but surely that's a positive, not a negative... we shall see.\n\nMore functionality could be added but this is, of course, a simple app.\n"
     },
     "example_post": {
         "title": "Example Post",
